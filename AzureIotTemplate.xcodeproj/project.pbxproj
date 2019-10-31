@@ -14,9 +14,26 @@
 		23C1E9B4236AADEA001E8DA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23C1E9B3236AADEA001E8DA1 /* Assets.xcassets */; };
 		23C1E9B7236AADEA001E8DA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23C1E9B5236AADEA001E8DA1 /* LaunchScreen.storyboard */; };
 		23C1E9BA236AADEA001E8DA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C1E9B9236AADEA001E8DA1 /* main.m */; };
+		23C1E9C1236AADFD001E8DA1 /* include in Resources */ = {isa = PBXBuildFile; fileRef = 23C1E9C0236AADFD001E8DA1 /* include */; };
+		23C1E9C3236AAE02001E8DA1 /* lib in Resources */ = {isa = PBXBuildFile; fileRef = 23C1E9C2236AAE02001E8DA1 /* lib */; };
+		23C1E9C5236AAE07001E8DA1 /* curl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C1E9C4236AAE07001E8DA1 /* curl.framework */; };
+		23C1E9D1236AAEB7001E8DA1 /* libiothub_client.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C1E9C6236AAEB7001E8DA1 /* libiothub_client.a */; };
+		23C1E9D2236AAEB7001E8DA1 /* libuhttp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C1E9C7236AAEB7001E8DA1 /* libuhttp.a */; };
+		23C1E9D3236AAEB7001E8DA1 /* libiothub_client_mqtt_transport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C1E9C8236AAEB7001E8DA1 /* libiothub_client_mqtt_transport.a */; };
+		23C1E9D4236AAEB7001E8DA1 /* libiothub_client_mqtt_ws_transport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C1E9C9236AAEB7001E8DA1 /* libiothub_client_mqtt_ws_transport.a */; };
+		23C1E9D5236AAEB7001E8DA1 /* libparson.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C1E9CA236AAEB7001E8DA1 /* libparson.a */; };
+		23C1E9D6236AAEB7001E8DA1 /* libumqtt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C1E9CB236AAEB7001E8DA1 /* libumqtt.a */; };
+		23C1E9D7236AAEB7001E8DA1 /* libiothub_client_amqp_ws_transport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C1E9CC236AAEB7001E8DA1 /* libiothub_client_amqp_ws_transport.a */; };
+		23C1E9D8236AAEB7001E8DA1 /* libaziotsharedutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C1E9CD236AAEB7001E8DA1 /* libaziotsharedutil.a */; };
+		23C1E9D9236AAEB8001E8DA1 /* libiothub_client_http_transport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C1E9CE236AAEB7001E8DA1 /* libiothub_client_http_transport.a */; };
+		23C1E9DA236AAEB8001E8DA1 /* libiothub_client_amqp_transport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C1E9CF236AAEB7001E8DA1 /* libiothub_client_amqp_transport.a */; };
+		23C1E9DB236AAEB8001E8DA1 /* libuamqp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C1E9D0236AAEB7001E8DA1 /* libuamqp.a */; };
+		23C1E9DE236AAF72001E8DA1 /* certs.c in Sources */ = {isa = PBXBuildFile; fileRef = 23C1E9DD236AAF72001E8DA1 /* certs.c */; };
+		9C62781372E36E7CCE534965 /* Pods_AzureIotTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20EA092FBC7CFEC3D1C4AAFF /* Pods_AzureIotTemplate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		20EA092FBC7CFEC3D1C4AAFF /* Pods_AzureIotTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AzureIotTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23C1E9A4236AADE7001E8DA1 /* AzureIotTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzureIotTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23C1E9A7236AADE7001E8DA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		23C1E9A8236AADE7001E8DA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +46,24 @@
 		23C1E9B6236AADEA001E8DA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23C1E9B8236AADEA001E8DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23C1E9B9236AADEA001E8DA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		23C1E9C0236AADFD001E8DA1 /* include */ = {isa = PBXFileReference; lastKnownFileType = folder; path = include; sourceTree = "<group>"; };
+		23C1E9C2236AAE02001E8DA1 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lib; sourceTree = "<group>"; };
+		23C1E9C4236AAE07001E8DA1 /* curl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = curl.framework; sourceTree = "<group>"; };
+		23C1E9C6236AAEB7001E8DA1 /* libiothub_client.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiothub_client.a; path = AzureIotTemplate/lib/libiothub_client.a; sourceTree = "<group>"; };
+		23C1E9C7236AAEB7001E8DA1 /* libuhttp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libuhttp.a; path = AzureIotTemplate/lib/libuhttp.a; sourceTree = "<group>"; };
+		23C1E9C8236AAEB7001E8DA1 /* libiothub_client_mqtt_transport.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiothub_client_mqtt_transport.a; path = AzureIotTemplate/lib/libiothub_client_mqtt_transport.a; sourceTree = "<group>"; };
+		23C1E9C9236AAEB7001E8DA1 /* libiothub_client_mqtt_ws_transport.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiothub_client_mqtt_ws_transport.a; path = AzureIotTemplate/lib/libiothub_client_mqtt_ws_transport.a; sourceTree = "<group>"; };
+		23C1E9CA236AAEB7001E8DA1 /* libparson.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libparson.a; path = AzureIotTemplate/lib/libparson.a; sourceTree = "<group>"; };
+		23C1E9CB236AAEB7001E8DA1 /* libumqtt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libumqtt.a; path = AzureIotTemplate/lib/libumqtt.a; sourceTree = "<group>"; };
+		23C1E9CC236AAEB7001E8DA1 /* libiothub_client_amqp_ws_transport.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiothub_client_amqp_ws_transport.a; path = AzureIotTemplate/lib/libiothub_client_amqp_ws_transport.a; sourceTree = "<group>"; };
+		23C1E9CD236AAEB7001E8DA1 /* libaziotsharedutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libaziotsharedutil.a; path = AzureIotTemplate/lib/libaziotsharedutil.a; sourceTree = "<group>"; };
+		23C1E9CE236AAEB7001E8DA1 /* libiothub_client_http_transport.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiothub_client_http_transport.a; path = AzureIotTemplate/lib/libiothub_client_http_transport.a; sourceTree = "<group>"; };
+		23C1E9CF236AAEB7001E8DA1 /* libiothub_client_amqp_transport.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiothub_client_amqp_transport.a; path = AzureIotTemplate/lib/libiothub_client_amqp_transport.a; sourceTree = "<group>"; };
+		23C1E9D0236AAEB7001E8DA1 /* libuamqp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libuamqp.a; path = AzureIotTemplate/lib/libuamqp.a; sourceTree = "<group>"; };
+		23C1E9DC236AAF72001E8DA1 /* certs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = certs.h; sourceTree = "<group>"; };
+		23C1E9DD236AAF72001E8DA1 /* certs.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = certs.c; sourceTree = "<group>"; };
+		2F86C5C9BE0AE916FF695ECD /* Pods-AzureIotTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureIotTemplate.release.xcconfig"; path = "Target Support Files/Pods-AzureIotTemplate/Pods-AzureIotTemplate.release.xcconfig"; sourceTree = "<group>"; };
+		F678901D3C6DF9271F7F4B65 /* Pods-AzureIotTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzureIotTemplate.debug.xcconfig"; path = "Target Support Files/Pods-AzureIotTemplate/Pods-AzureIotTemplate.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +71,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23C1E9C5236AAE07001E8DA1 /* curl.framework in Frameworks */,
+				9C62781372E36E7CCE534965 /* Pods_AzureIotTemplate.framework in Frameworks */,
+				23C1E9D1236AAEB7001E8DA1 /* libiothub_client.a in Frameworks */,
+				23C1E9D2236AAEB7001E8DA1 /* libuhttp.a in Frameworks */,
+				23C1E9D3236AAEB7001E8DA1 /* libiothub_client_mqtt_transport.a in Frameworks */,
+				23C1E9D4236AAEB7001E8DA1 /* libiothub_client_mqtt_ws_transport.a in Frameworks */,
+				23C1E9D5236AAEB7001E8DA1 /* libparson.a in Frameworks */,
+				23C1E9D6236AAEB7001E8DA1 /* libumqtt.a in Frameworks */,
+				23C1E9D7236AAEB7001E8DA1 /* libiothub_client_amqp_ws_transport.a in Frameworks */,
+				23C1E9D8236AAEB7001E8DA1 /* libaziotsharedutil.a in Frameworks */,
+				23C1E9D9236AAEB8001E8DA1 /* libiothub_client_http_transport.a in Frameworks */,
+				23C1E9DA236AAEB8001E8DA1 /* libiothub_client_amqp_transport.a in Frameworks */,
+				23C1E9DB236AAEB8001E8DA1 /* libuamqp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F5DE761A5D9B9DEEF0D2F82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F678901D3C6DF9271F7F4B65 /* Pods-AzureIotTemplate.debug.xcconfig */,
+				2F86C5C9BE0AE916FF695ECD /* Pods-AzureIotTemplate.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		23C1E99B236AADE7001E8DA1 = {
 			isa = PBXGroup;
 			children = (
 				23C1E9A6236AADE7001E8DA1 /* AzureIotTemplate */,
 				23C1E9A5236AADE7001E8DA1 /* Products */,
+				0F5DE761A5D9B9DEEF0D2F82 /* Pods */,
+				4002759A240E7AC4A0FE0594 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +120,11 @@
 		23C1E9A6236AADE7001E8DA1 /* AzureIotTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				23C1E9C4236AAE07001E8DA1 /* curl.framework */,
+				23C1E9C0236AADFD001E8DA1 /* include */,
+				23C1E9C2236AAE02001E8DA1 /* lib */,
+				23C1E9DD236AAF72001E8DA1 /* certs.c */,
+				23C1E9DC236AAF72001E8DA1 /* certs.h */,
 				23C1E9A7236AADE7001E8DA1 /* AppDelegate.h */,
 				23C1E9A8236AADE7001E8DA1 /* AppDelegate.m */,
 				23C1E9AA236AADE7001E8DA1 /* SceneDelegate.h */,
@@ -76,6 +140,25 @@
 			path = AzureIotTemplate;
 			sourceTree = "<group>";
 		};
+		4002759A240E7AC4A0FE0594 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23C1E9CD236AAEB7001E8DA1 /* libaziotsharedutil.a */,
+				23C1E9CF236AAEB7001E8DA1 /* libiothub_client_amqp_transport.a */,
+				23C1E9CC236AAEB7001E8DA1 /* libiothub_client_amqp_ws_transport.a */,
+				23C1E9CE236AAEB7001E8DA1 /* libiothub_client_http_transport.a */,
+				23C1E9C8236AAEB7001E8DA1 /* libiothub_client_mqtt_transport.a */,
+				23C1E9C9236AAEB7001E8DA1 /* libiothub_client_mqtt_ws_transport.a */,
+				23C1E9C6236AAEB7001E8DA1 /* libiothub_client.a */,
+				23C1E9CA236AAEB7001E8DA1 /* libparson.a */,
+				23C1E9D0236AAEB7001E8DA1 /* libuamqp.a */,
+				23C1E9C7236AAEB7001E8DA1 /* libuhttp.a */,
+				23C1E9CB236AAEB7001E8DA1 /* libumqtt.a */,
+				20EA092FBC7CFEC3D1C4AAFF /* Pods_AzureIotTemplate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,6 +166,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23C1E9BD236AADEA001E8DA1 /* Build configuration list for PBXNativeTarget "AzureIotTemplate" */;
 			buildPhases = (
+				76FA26ED8F51AAB35D88B3A0 /* [CP] Check Pods Manifest.lock */,
 				23C1E9A0236AADE7001E8DA1 /* Sources */,
 				23C1E9A1236AADE7001E8DA1 /* Frameworks */,
 				23C1E9A2236AADE7001E8DA1 /* Resources */,
@@ -134,12 +218,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				23C1E9B7236AADEA001E8DA1 /* LaunchScreen.storyboard in Resources */,
+				23C1E9C3236AAE02001E8DA1 /* lib in Resources */,
 				23C1E9B4236AADEA001E8DA1 /* Assets.xcassets in Resources */,
 				23C1E9B2236AADE7001E8DA1 /* Main.storyboard in Resources */,
+				23C1E9C1236AADFD001E8DA1 /* include in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76FA26ED8F51AAB35D88B3A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AzureIotTemplate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		23C1E9A0236AADE7001E8DA1 /* Sources */ = {
@@ -150,6 +261,7 @@
 				23C1E9A9236AADE7001E8DA1 /* AppDelegate.m in Sources */,
 				23C1E9BA236AADEA001E8DA1 /* main.m in Sources */,
 				23C1E9AC236AADE7001E8DA1 /* SceneDelegate.m in Sources */,
+				23C1E9DE236AAF72001E8DA1 /* certs.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,14 +399,38 @@
 		};
 		23C1E9BE236AADEA001E8DA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F678901D3C6DF9271F7F4B65 /* Pods-AzureIotTemplate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K4MFL7WW7D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AzureIotTemplate",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/OpenSSL-Universal\"",
+					"\"$(SRCROOT)/AzureIotTemplate/include\"",
+				);
 				INFOPLIST_FILE = AzureIotTemplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/OpenSSL-Universal/ios/lib\"",
+					"\"$(SRCROOT)/AzureIotTemplate/lib\"",
+					"$(PROJECT_DIR)/AzureIotTemplate/lib",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"crypto\"",
+					"-l\"ssl\"",
+					"-lz",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.NOA-Labs.AzureIotTemplate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,14 +440,38 @@
 		};
 		23C1E9BF236AADEA001E8DA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F86C5C9BE0AE916FF695ECD /* Pods-AzureIotTemplate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K4MFL7WW7D;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AzureIotTemplate",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/OpenSSL-Universal\"",
+					"\"$(SRCROOT)/AzureIotTemplate/include\"",
+				);
 				INFOPLIST_FILE = AzureIotTemplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/OpenSSL-Universal/ios/lib\"",
+					"\"$(SRCROOT)/AzureIotTemplate/lib\"",
+					"$(PROJECT_DIR)/AzureIotTemplate/lib",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"crypto\"",
+					"-l\"ssl\"",
+					"-lz",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.NOA-Labs.AzureIotTemplate";
 				PRODUCT_NAME = "$(TARGET_NAME)";

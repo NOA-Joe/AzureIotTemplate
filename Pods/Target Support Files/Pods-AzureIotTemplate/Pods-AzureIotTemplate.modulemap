@@ -1,0 +1,6 @@
+framework module Pods_AzureIotTemplate {
+  umbrella header "Pods-AzureIotTemplate-umbrella.h"
+
+  export *
+  module * { export * }
+}
